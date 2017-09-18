@@ -1,0 +1,23 @@
+{
+  "name": "inquirer-prestonhunt",
+  "version": "1.0.0",
+  "description": "inquirer-PrestonHunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OTCCIS131/inquirer-PrestonHunt.git"
+  },
+  "author": "Preston Hunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OTCCIS131/inquirer-PrestonHunt/issues"
+  },
+  "homepage": "https://github.com/OTCCIS131/inquirer-PrestonHunt#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "inquirer": "^3.3.0"
+  }
+}
