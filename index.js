@@ -2,7 +2,9 @@ const chalk = require('chalk')
 const inquirer = require('inquirer')
 
 
-console.log("Welcome to Preston's Pizzaria")
+//console.log("Welcome to Preston's Pizzaria")
+console.log(chalk.green('Welcome to'),chalk.white("Preston's"),chalk.red('Pizzaria'))
+console.log("Phone: 958-486-592")
 
 var questions = 
 [
