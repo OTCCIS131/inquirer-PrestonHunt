@@ -30,8 +30,10 @@ var questions =
     }
 ]
 
-inquirer.prompt(questions).then(function (answers)
+inquirer.prompt(questions).then(function ({pizzaSize,Toppings,cut})
 {
     console.log('Order receipt')
-    console.log(answers)
+    console.log("You wanted a " + pizzaSize + " pizza. \n"
+                + "With " + Toppings + " on it. \n"
+                + "and cut in a " + cut + " fashion." )
 })
